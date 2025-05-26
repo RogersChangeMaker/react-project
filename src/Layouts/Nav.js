@@ -1,17 +1,21 @@
+
+import Logo from "../conponents/Logo";
+import Searchinput from "../conponents/Searchinput";
+import UserProfile from "../conponents/Userprofile";
+import styles from "./Nav.modules.css";
+
+
+
 function Nav(){
-    return <nav>
-        <div className="logo">My Library</div>
+    return (
+      <nav className="nav">
+        <Logo />
+       <Searchinput  />
+       <UserProfile />
 
-        <div className="input-box">
-            <input type="search" placeholder="search by title, author, or ISBN"/>
-            <i>Search</i>
-        </div>
-
-        <div className="user-box">
-            <i>User</i>
-            <p>Rogers</p>
-        </div>
-    </nav>
+        
+      </nav>
+    );
 
 
 }

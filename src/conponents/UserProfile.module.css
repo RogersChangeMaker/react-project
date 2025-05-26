@@ -1,0 +1,10 @@
+:global(.user-box){
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+
+ :global(.user-box) > ion-icon{
+    color: #4dabf7;
+    font-size: 20px;
+ }
