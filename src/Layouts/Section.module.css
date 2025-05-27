@@ -1,0 +1,8 @@
+:global(.section-container){
+    padding: 10px 20px;
+}
+
+:global(.section-filters){
+    gap: 10px;
+
+}

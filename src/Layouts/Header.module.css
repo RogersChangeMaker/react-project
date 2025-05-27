@@ -1,13 +1,23 @@
 :global(.header-list) {
   display: flex;
   gap: 10px;
+  list-style: none;
+}
+
+:global(.header-list) :hover{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    padding: 1px;
 }
 
 :global(.header-icons){
     display:flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 :global(.header-container){
-    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
 }

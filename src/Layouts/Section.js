@@ -12,14 +12,12 @@ function Section() {
           </label>
         </div>
         <div className="borroed">
-          <h2>Filters</h2>
           <label>
             <input type="checkbox" name="subscribe" />
             Borrowed
           </label>
         </div>
         <div className="all-status">
-          <h2>Filters</h2>
           <label>
             <input type="checkbox" name="subscribe" />
             All Status

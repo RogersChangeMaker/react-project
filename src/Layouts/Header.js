@@ -14,8 +14,8 @@ function Header() {
       </ul>
 
       <div className="header-icons">
-        {/* <ion-icon name="grid"></ion-icon>
-        <ion-icon name="list"></ion-icon> */}
+        <ion-icon name="grid"></ion-icon>
+        <ion-icon name="list"></ion-icon>
       </div>
     </div>
   );
