@@ -15,7 +15,7 @@ function Section() {
           <h2>Filters</h2>
           <label>
             <input type="checkbox" name="subscribe" />
-            Borrowd
+            Borrowed
           </label>
         </div>
         <div className="all-status">
