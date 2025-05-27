@@ -1,5 +1,5 @@
 import Logo from "../conponents/Logo";
-import SearchInput from "../conponents/Searchinput";
+import Searchinput from "../conponents/Searchinput";
 import './Footer.module.css';
 
 
@@ -7,7 +7,9 @@ function Footer(){
     return (
         <div className="footer">
             <Logo/>
-            <p>Search Bar</p>
+            <p>Search for any input</p>
+            <Searchinput/>
+            
 
         </div>
 

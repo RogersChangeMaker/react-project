@@ -1,0 +1,13 @@
+:global(.header-list) {
+  display: flex;
+  gap: 10px;
+}
+
+:global(.header-icons){
+    display:flex;
+    gap: 5px;
+}
+
+:global(.header-container){
+    align-content: space-between;
+}
