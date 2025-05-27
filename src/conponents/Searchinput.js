@@ -1,8 +1,8 @@
-import styles from './SearchImput.module.css';
+import styles from './Searchinput.module.css';
 
 function Searchinput(){
     return (
-      <div className={namespace.inputBox}>
+      <div className={styles.inputBox}>
         <input type="search" placeholder="search by title, author, or ISBN" />
         <ion-icon name="search-outline"></ion-icon>
       </div>

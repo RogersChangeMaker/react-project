@@ -1,8 +1,8 @@
 
 import Logo from "../conponents/Logo";
 import Searchinput from "../conponents/Searchinput";
-import UserProfile from "../conponents/Userprofile";
-import styles from "./Nav.modules.css";
+import UserProfile from "../conponents/UserProfile";
+import styles from "./Nav.module.css";
 
 
 
