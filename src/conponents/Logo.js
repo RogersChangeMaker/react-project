@@ -1,7 +1,7 @@
 import styles from './Logo.module.css';
 
 function Logo(){
-    return <div className={styles.logo}>My Library</div>
+    return <h4 className={styles.logo}>My Library</h4>
     
 }
 

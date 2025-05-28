@@ -1,8 +1,45 @@
-:global(.section-container){
-    padding: 10px 20px;
+
+:global(.big-container){
+    display: flex;
+    flex-direction: column;
 }
 
-:global(.section-filters){
-    gap: 10px;
+:global(.article){
+    display: flex;
+    justify-content: space-between;
+}
 
+:global(.button){
+    background-color: #3e5af8;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+}
+
+:global()
+
+:globa(.icons){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+:global(.available){
+    display: flex;
+    justify-content: space-between;
+}
+:global(.available)>div{
+    display: flex;
+    gap: 3px;
+}
+
+:global(.main){
+    word-spacing: 10px;
+    display: flex;
+}
+
+:global(.main-1st)>img{
+    width: 100%;
+    height: 50%;
 }
