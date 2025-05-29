@@ -21,3 +21,81 @@
     justify-content: space-between;
     padding: 10px 20px;
 }
+
+:global(.aside-container){
+    padding: 10px 20px;
+}
+
+:global(.aside-filters){
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+
+}
+
+:global(.aside-categories){
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+:global(.aside-popular){
+    display: flex;
+    flex-direction: column;
+    word-spacing: 8px;
+}
+
+:global(.aside-popular) >ul {
+    list-style: none;
+}
+
+
+
+:global(.big-container){
+    display: flex;
+    flex-direction: column;
+}
+
+:global(.article){
+    display: flex;
+    justify-content: space-between;
+}
+
+:global(.button){
+    background-color: #3e5af8;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+}
+
+:global(.icons-container){
+    display: flex;
+    justify-content: space-between;
+}
+
+:globa(.icons){
+    display: flex;
+    gap: 20px;
+}
+    
+:global(.available){
+    display: flex;
+    justify-content: space-between;
+}
+:global(.available)>div{
+    display: flex;
+    gap: 3px;
+}
+
+:global(.main){
+    word-spacing: 10px;
+    display: flex;
+}
+
+:global(.main-1st)>img{
+    width: 100%;
+    height: 50%;
+}

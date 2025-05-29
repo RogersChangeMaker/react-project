@@ -1,20 +1,20 @@
 import Nav from "./Layouts/Nav";
 // import Footer from "./Layouts/Footer";
 import Header from "./Layouts/Header";
-import Section from "./Layouts/Section";
-import Aside from "./Layouts/Aside";
+// import Section from "./Layouts/Section";
+// import Aside from "./Layouts/Aside";
 
 function App() {
   return (
     <div className="app">
       <Nav />
       <Header />
-      <Aside />
+      {/* <Aside /> */}
       {/* <Section /> */}
 
       {/* <Footer/> */}
 
-      <div className="main">
+      {/* <div className="main">
         <Section
           image="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lg1wieqqzzi05e"
           bookDescription="Rich Dad, Poor Dad"
@@ -46,7 +46,7 @@ function App() {
           writeUp="Sci-Fi Classic"
           filters="Available"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
