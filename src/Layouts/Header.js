@@ -1,7 +1,6 @@
 import "./Header.module.css";
 
-
-function Header() {
+function Header(props) {
   return (
     <div className="biggest-container">
       <div className="header-container">
@@ -21,6 +20,7 @@ function Header() {
         </div>
       </div>
 
+      <div className="aside-section-container">
         <aside className="aside-container">
           <div className="aside-filters">
             <h4>Filters</h4>
@@ -75,30 +75,44 @@ function Header() {
           </div>
         </aside>
 
-      <section className="big-container">
-        <article className="article">
-          <h4>All Books (4)</h4>
-          <button className="button" type="button">
-            + Add New Books
-          </button>
-        </article>
+        <section className="bigsection-container">
+          <article className="article">
+            <h4>All Books (4)</h4>
+            <button className="button" type="button">
+              + Add New Books
+            </button>
+          </article>
 
-        <main className="main">
-          <div className="main-1st">
-            <img src="/business-book.jpg" alt="Business Book" />
-            <h4>Rich Dad Poor Dad</h4>
-            <p>Robert Kiyosaki</p>
-            <p>What the rich teach</p>
-            <div className="icons-container">
-              <h5>Available</h5>
-              <div className="icons">
-                <ion-icon name="pencil-outline"></ion-icon>
-                <ion-icon name="trash-outline"></ion-icon>
+          <main className="main">
+            <div className="main-1st">
+              <img
+                src="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lg1wieqqzzi05e"
+                alt="Business Book"
+              />
+              <h4>Rich Dad Poor Dad</h4>
+              <p>Robert Kiyosaki</p>
+              <p>What the Rich Teach</p>
+              <div className="icons-container">
+                <h5>Available</h5>
+                <div className="icons">
+                  <ion-icon name="pencil-outline"></ion-icon>
+                  <ion-icon name="trash-outline"></ion-icon>
+                </div>
               </div>
             </div>
-          </div>
-        </main>
-      </section>
+          </main>
+
+          <footer className="footer-section">
+            <p>Showing 1-4 of 4 books</p>
+            <div className="footer-section-icons">
+              <ion-icon name="chevron-back-circle-outline"></ion-icon>
+              <button type="button">1</button>
+
+              <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+          </footer>
+        </section>
+      </div>
     </div>
   );
 }

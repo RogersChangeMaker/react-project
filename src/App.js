@@ -2,20 +2,20 @@ import Nav from "./Layouts/Nav";
 // import Footer from "./Layouts/Footer";
 import Header from "./Layouts/Header";
 // import Section from "./Layouts/Section";
-// import Aside from "./Layouts/Aside";
+import Aside from "./Layouts/Aside";
 
 function App() {
   return (
     <div className="app">
       <Nav />
       <Header />
-      {/* <Aside /> */}
+      <Aside />
       {/* <Section /> */}
 
       {/* <Footer/> */}
 
       {/* <div className="main">
-        <Section
+        <Header
           image="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lg1wieqqzzi05e"
           bookDescription="Rich Dad, Poor Dad"
           author="Robert Kiyosaki"
@@ -23,7 +23,7 @@ function App() {
           filters="Available"
         />
 
-        <Section
+        <Header
           image="https://abiva.com.ph/wp-content/uploads/2022/05/SNT7-scaled.jpg"
           bookDescription="Atomic Habits"
           author="James Clear"
@@ -31,7 +31,7 @@ function App() {
           filters="Borrowed"
         />
 
-        <Section
+        <Header
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqU4K_3j5yxV-bRTte6dtKxBFLMLOxlPbKdJgK9O5jWu1Q_sg2wOwpl2ohy4SMGWefoLM&usqp=CAU"
           bookDescription="The Innovators"
           author="Walter Isaacson"
@@ -39,7 +39,7 @@ function App() {
           filters="Available"
         />
 
-        <Section
+        <Header
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwETqbaE7UX7terJTLuhDTdxRzVOvgO8XEg&s"
           bookDescription="Dune"
           author="Frank Herbert"
