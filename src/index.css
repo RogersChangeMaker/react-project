@@ -22,3 +22,8 @@ body{
   margin: 20px 40px;
   
 }
+
+:global(.mainSection){
+  display: flex;
+  flex-direction: row;
+}
