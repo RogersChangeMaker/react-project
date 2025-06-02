@@ -22,34 +22,7 @@
     padding: 10px 20px;
 }
 
-:global(.aside-container){
-    padding: 10px 20px;
-}
 
-:global(.aside-filters){
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-bottom: 10px;
-
-}
-
-:global(.aside-categories){
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-bottom: 10px;
-}
-
-:global(.aside-popular){
-    display: flex;
-    flex-direction: column;
-    word-spacing: 8px;
-}
-
-:global(.aside-popular) >ul {
-    list-style: none;
-}
 
 
 
@@ -57,21 +30,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-:global(.article){
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-:global(.button){
-    background-color: #3e5af8;
-    border-radius: 5px;
-    color: white;
-    font-size: 10px;
-    padding: 4px;
-    border: none;
 }
 
 :global(.icons-container){
@@ -113,32 +71,6 @@
     height: 80%;
 }
 
-:global(.footer-section){
-    display: flex;
-    justify-content: space-between;
-
-}
-
-:global(.footer-section-icons){
-    display: flex;
-    gap: 7px;
-}
-
-:global(.footer-section-icons)>ion-icon{
-    width: 20px;
-    height: 20px;
-    border: none;
-
-}
-:global(.footer-section-icons)>button{
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    background-color: #3e5af8;
-    color: white;
-    border: none;
-
-}
 
 :global(.aside-section-container){
     display: flex;

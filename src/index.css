@@ -23,7 +23,14 @@ body{
   
 }
 
-:global(.mainSection){
+.section-main{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.section-biggest{
+  display: flex;
+  height: 300px;
 }

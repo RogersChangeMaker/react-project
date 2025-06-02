@@ -3,7 +3,7 @@ import "./Footersection.module.css";
 function Footersection() {
   return (
     <footer className="footer-section">
-      <p>Showing 1-4 of 4 books</p>
+      <p>Showing 1-4 of 500 books</p>
       <div className="footer-section-icons">
         <ion-icon name="chevron-back-circle-outline"></ion-icon>
         <button type="button">1</button>

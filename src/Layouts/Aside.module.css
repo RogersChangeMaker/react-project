@@ -1,0 +1,29 @@
+:global(.aside-container){
+    padding: 10px 20px;
+}
+
+:global(.aside-filters){
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+
+}
+
+:global(.aside-categories){
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+:global(.aside-popular){
+    display: flex;
+    flex-direction: column;
+    word-spacing: 8px;
+    line-height: 15px;
+}
+
+:global(.aside-popular) >ul {
+    list-style: none;
+}

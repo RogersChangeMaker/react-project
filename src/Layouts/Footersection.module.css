@@ -1,0 +1,35 @@
+
+:global(.footer-section){
+    display: flex;
+    justify-content: space-between;
+
+}
+
+:global(.footer-section-icons){
+    display: flex;
+    gap: 7px;
+}
+
+:global(.footer-section-icons)>ion-icon{
+    width: 20px;
+    height: 20px;
+    border: none;
+
+}
+
+:global(.footer-section-icons)>ion-icon:hover{
+    background-color: rgb(134, 109, 247);
+    border-radius: 20px;
+    cursor: grab;
+
+
+}
+:global(.footer-section-icons)>button{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    border: none;
+
+}

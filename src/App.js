@@ -1,27 +1,26 @@
 import Nav from "./Layouts/Nav";
-// import Footer from "./Layouts/Footer";
 import Header from "./Layouts/Header";
-// import Section from "./Layouts/Section";
 import Aside from "./Layouts/Aside";
 import Article from "./Layouts/Article";
 import Main from "./Layouts/Main";
 import Footersection from "./Layouts/Footersection";
-import './index.css';
+import "./index.css";
 
 function App() {
   return (
     <div className="app">
       <Nav />
-
-      <div className="mainSection">
-        <Article />
-        <Main />
-        <Footersection />
-      </div>
-
       <Header />
 
-      <Aside />
+      <div className="section-biggest">
+        <Aside/>
+        <div className="section-main">
+          <Article />
+          <Main />
+          <Footersection />
+        </div>
+        
+      </div>
 
       {/* <Section /> */}
 
