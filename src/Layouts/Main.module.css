@@ -6,11 +6,16 @@
 }
 
 .main>li{
-    background-color: rgb(227, 228, 226);
-    width: 150px;
+    background-color: rgb(250, 245, 245);
+    width: 160px;
     border-radius: 15px;
     overflow: hidden;
-    height: 230px;
+    height: 250px;
+   
+}
+
+:global(.main-description){
+    word-spacing: 7px;
 }
 
 .mainimg{
@@ -20,6 +25,15 @@
 
 }
 .maindiv{
-    padding: 15px;
+    padding: 12px 7px;
+}
+
+:global(.list-icons){
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+:global(.list-icons)>p{
+color: rgb(76, 187, 76);
 }
 

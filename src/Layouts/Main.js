@@ -4,38 +4,40 @@ function Main() {
   const books = [
     {
       id: 1,
-      btitle: "Rich Dad Poor Dad",
-      bauthor: "Robert Kiyosaki",
-      bdescription: "What the Rich teach their children",
+      btitle: "The Design of Everyday Thing",
+      bauthor: "Don Norman",
+      bdescription: "UX Design Psychology",
+      // <ion-icon name="pencil"></ion-icon>
       imageurl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgUutsti4IUZIzrbZWtMWTdPKHekpN6DUZvA&s",
+        "https://booxoul.com/wp-content/uploads/2023/02/A-Deep-Dive-Into-Love-Loss-and-Healing-Through-Milk-and-Honey-by-Rupi-Kaur.webp",
+      
     },
 
     {
       id: 2,
-      btitle: "Tell the Machine Good Night",
-      bauthor: "Katie Williams",
-      bdescription: "Book about Technology and Humanity",
+      btitle: "Atomic Habits",
+      bauthor: "James Clear",
+      bdescription: "Productivity Psychology",
       imageurl:
-        "https://149349728.v2.pressablecdn.com/wp-content/uploads/2018/06/1*UjBSeCp839ohojb7C0LHiw.jpeg",
+        "https://images.squarespace-cdn.com/content/v1/6129e1d90fd5785f5023e7dd/cf25cf7d-0544-4db2-81b0-2e31bd1ebe3b/MATT+RIDLEY.jpg",
     },
 
     {
       id: 3,
-      btitle: "History of the Philippines",
-      bauthor: "William H. Scot",
-      bdescription: "A Captivating guide to the History",
+      btitle: "The Innovators",
+      bauthor: "Walter Isaacson",
+      bdescription: "History Innovation",
       imageurl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUgmT4Pr2N7_Av-asnZsvrlpJ_AFC0Ow7F4vHD1gevSgIbIi3SWMUWCsTSi3Z3QCK5K0&usqp=CAU",
+        "https://media.istockphoto.com/id/1211723402/photo/pile-of-old-books-on-brown-background-closeup-selective-focus.jpg?s=612x612&w=is&k=20&c=JuVoEIxCWu6JOMD8Ev75cAsf7ZSaG51GjB4VVEGf2cA=",
     },
 
     {
-      id: 1,
-      btitle: "The Teaching Church",
-      bauthor: "Eugene C. R.",
-      bdescription: "Moving Christian Education to center Stage",
+      id: 4,
+      btitle: "Dune",
+      bauthor: "Frank Herbert",
+      bdescription: "Sci-Fi Classic",
       imageurl:
-        "https://m.media-amazon.com/images/I/61BBvvu0gIL._AC_UF1000,1000_QL80_.jpg",
+        "https://brettmilam.com/wp-content/uploads/2022/08/img-9575.jpg",
     },
   ];
 
@@ -48,7 +50,14 @@ function Main() {
             <div className={style.maindiv}>
               <p> {el.btitle}</p>
               <p> {el.bauthor}</p>
-              <p> {el.bdescription}</p>
+              <p className="main-description"> {el.bdescription}</p>
+              <div className="list-icons">
+                <p>Available</p>
+                <div>
+                  <ion-icon name="pencil"></ion-icon>
+                  <ion-icon name="trash"></ion-icon>
+                </div>
+              </div>
             </div>
           </li>
         ))}

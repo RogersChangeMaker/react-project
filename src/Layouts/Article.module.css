@@ -2,7 +2,7 @@
 :global(.article){
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 :global(.button){
