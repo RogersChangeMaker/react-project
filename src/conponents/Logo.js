@@ -1,8 +1,12 @@
-import styles from './Logo.module.css';
+import styles from "./Logo.module.css";
 
-function Logo(){
-    return <h4 className={styles.logo}>My Library</h4>
-    
+function Logo() {
+  return (
+    <div className="logo-div">
+      <ion-icon name="clipboard-outline"></ion-icon>
+      <h4 className={styles.logo}>MyLibrary</h4>
+    </div>
+  );
 }
 
 export default Logo;

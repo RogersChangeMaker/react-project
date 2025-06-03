@@ -4,7 +4,7 @@ function UserProfile(){
     return (
       <div className="user-box">
         <ion-icon name="person-circle"></ion-icon>
-        <p>Rogers</p>
+        <h4>Rogers</h4>
       </div>
     );
 }

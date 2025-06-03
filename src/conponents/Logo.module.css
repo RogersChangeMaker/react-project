@@ -1,3 +1,13 @@
+:global(.logo-div){
+    display: flex;
+}
+
 .logo{
-    color: red;
+    color: black;
+    margin-left: 0px;
+}
+:global(.logo-div)>ion-icon{
+    color: blue;
+    height: 20px;
+    width: 30px;
 }

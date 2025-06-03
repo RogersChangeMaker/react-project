@@ -10,7 +10,7 @@ function Nav(){
     return (
       <nav className="nav">
         <Logo />
-       <Searchinput  />
+       <Searchinput />
        <UserProfile />
 
         
