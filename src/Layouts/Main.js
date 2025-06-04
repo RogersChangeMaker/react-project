@@ -10,7 +10,6 @@ function Main() {
       // <ion-icon name="pencil"></ion-icon>
       imageurl:
         "https://booxoul.com/wp-content/uploads/2023/02/A-Deep-Dive-Into-Love-Loss-and-Healing-Through-Milk-and-Honey-by-Rupi-Kaur.webp",
-      
     },
 
     {
